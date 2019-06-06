@@ -1,5 +1,7 @@
 # Windows Shell Keys
 
+![my context menu](menu.png)
+
 These are some registry tweaks that I have created to boost my own productivity as a student/hobbyist/amateur software developer who occasionally works on a Windows 10 system. They add context menu entries to Windows Explorer for launching various types of CLI shells that I use (like WSL and Cygwin).
 
 They come in two variants:
@@ -28,4 +30,4 @@ It may seem like a spooky place 🎃👻👀, but it doesn't have to be. Just be
 
 ## License
 
-Technically, I'm not licensing this stuff. In fact, I dedicate this repository to the public domain via [the aptly-named Unlicense](https://github.com/tylerfilla/Windows-Shell-Keys/blob/master/LICENSE).
+Technically, I'm not licensing this stuff. In fact, I dedicate this repository to the public domain via [the aptly-named Unlicense](LICENSE).
