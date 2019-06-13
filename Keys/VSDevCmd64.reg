@@ -3,7 +3,7 @@ Windows Registry Editor Version 5.00
 ; Background
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSDevCmd64]
-@="Open VsDevCmd here (Visual Studio 2019, 64-bit, x86_64)"
+@="Open Vs&DevCmd here (Visual Studio 2019, 64-bit, x86_64)"
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
@@ -14,7 +14,7 @@ Windows Registry Editor Version 5.00
 ; Foreground
 
 [HKEY_CLASSES_ROOT\Directory\shell\VSDevCmd64]
-@="Open VsDevCmd here (Visual Studio 2019, 64-bit, x86_64)"
+@="Open Vs&DevCmd here (Visual Studio 2019, 64-bit, x86_64)"
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 

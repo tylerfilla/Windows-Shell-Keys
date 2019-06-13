@@ -3,7 +3,7 @@ Windows Registry Editor Version 5.00
 ; Background
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cygwin]
-@="Open Cygwin64 Terminal here"
+@="Open C&ygwin64 Terminal here"
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
@@ -14,7 +14,7 @@ Windows Registry Editor Version 5.00
 ; Foreground
 
 [HKEY_CLASSES_ROOT\Directory\shell\Cygwin]
-@="Open Cygwin64 Terminal here"
+@="Open C&ygwin64 Terminal here"
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
