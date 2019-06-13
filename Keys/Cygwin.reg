@@ -8,7 +8,8 @@ Windows Registry Editor Version 5.00
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cygwin\command]
-@="C:\\cygwin64\\bin\\mintty.exe -i /Cygwin-Terminal.ico -e /bin/xhere /bin/bash.exe"
+; Edit the following line to your installation path and installed shell
+@="C:\\cygwin64\\bin\\mintty.exe -i /Cygwin-Terminal.ico /bin/sh -lc \"cd $(cygpath \"\"%V\"\"); exec $SHELL\""
 
 ; Foreground
 
@@ -18,4 +19,5 @@ Windows Registry Editor Version 5.00
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\Cygwin\command]
-@="cmd /C \"cd ^\"%1^\" && C:\\cygwin64\\bin\\mintty.exe -i /Cygwin-Terminal.ico -e /bin/xhere /bin/bash.exe\""
+; Edit the following line to your installation path and installed shell
+@="C:\\cygwin64\\bin\\mintty.exe -i /Cygwin-Terminal.ico /bin/sh -lc \"cd $(cygpath \"\"%V\"\"); exec $SHELL\""
