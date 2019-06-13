@@ -10,11 +10,7 @@ These registry files follow my personal preference. It is my preference to not c
 
 ## Disclaimer
 
-No lifeguard on duty!
-
-This code comes with no guarantee that it won't break things (or that it even works, for that matter!). The Windows registry is an integral part of the OS, and myriad horror stories online indicate that it's easy to screw something up. Still, I encourage playing around with it, but I suggest not doing so on your daily driver (e.g. do it in a virtual machine).
-
-It may seem like a spooky place 🎃👻👀, but it doesn't have to be.
+No lifeguard on duty! This code comes with no guarantee that it won't break things (or that it even works, for that matter!).
 
 ## License
 
