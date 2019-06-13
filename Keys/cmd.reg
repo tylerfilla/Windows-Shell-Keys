@@ -3,7 +3,7 @@ Windows Registry Editor Version 5.00
 ; Background
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
-@="@shell32.dll,-8506" ; Open command [w]indow here
+@="@shell32.dll,-8506" ; Open command &window here
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
@@ -13,7 +13,7 @@ Windows Registry Editor Version 5.00
 ; Foreground
 
 [HKEY_CLASSES_ROOT\Directory\shell\cmd]
-@="@shell32.dll,-8506" ; Open command [w]indow here
+@="@shell32.dll,-8506" ; Open command &window here
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 

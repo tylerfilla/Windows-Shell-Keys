@@ -3,8 +3,8 @@ Windows Registry Editor Version 5.00
 ; Background
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
-@="@shell32.dll,-8508" ; Open Power[S]hell window here
-"Extended"=""
+@="@shell32.dll,-8508" ; Open Power&Shell window here
+; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
@@ -13,8 +13,8 @@ Windows Registry Editor Version 5.00
 ; Foreground
 
 [HKEY_CLASSES_ROOT\Directory\shell\Powershell]
-@="@shell32.dll,-8508" ; Open Power[S]hell window here
-"Extended"=""
+@="@shell32.dll,-8508" ; Open Power&Shell window here
+; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\Powershell\command]
