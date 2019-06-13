@@ -3,19 +3,19 @@ Windows Registry Editor Version 5.00
 ; Background
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\WSL]
-@="Open Linux shell here" ; FIXME: Pull this from a DLL file
+@="@wsl.exe,-2" ; Open &Linux shell here
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\WSL\command]
-@="cmd /C \"wsl\""
+@="cmd.exe /s /c \"cd \"\"\"%V\"\"\" & wsl.exe\""
 
 ; Foreground
 
 [HKEY_CLASSES_ROOT\Directory\shell\WSL]
-@="Open Linux shell here" ; FIXME: Pull this from a DLL file
+@="@wsl.exe,-2" ; Open &Linux shell here
 ; "Extended"="" ; Uncomment to hide behind shift key
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\WSL\command]
-@="cmd /C \"cd ^\"%1^\" && wsl\""
+@="cmd.exe /s /c \"cd \"\"\"%V\"\"\" & wsl.exe\""
