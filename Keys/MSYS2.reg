@@ -8,7 +8,8 @@ Windows Registry Editor Version 5.00
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\MSYS2\command]
-@="C:\\msys64\\msys2_shell.cmd -msys -here"
+; Edit the following line to your installation path
+@="C:\\msys64\\msys2_shell.cmd -msys -where \"%V\""
 
 ; Foreground
 
@@ -18,4 +19,5 @@ Windows Registry Editor Version 5.00
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\MSYS2\command]
-@="cmd /C \"cd ^\"%1^\" && C:\\msys64\\msys2_shell.cmd -msys -here\""
+; Edit the following line to your installation path
+@="C:\\msys64\\msys2_shell.cmd -msys -where \"%V\""
