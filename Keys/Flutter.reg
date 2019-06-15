@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+;
+; WARNING
+;
+; The Flutter console batch file is very inflexible. It is hardcoded to CD to
+; %USERPROFILE% after launching. To deal with this, we overwrite the USERPROFILE
+; environment variable seen by Flutter console. As a result, opening Flutter
+; console into a specific directory is possible, but one cannot use the
+; USERPROFILE environment variable in any meaningful way inside it. Sorry!
+;
+
+; Background
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Flutter]
+@="Open Flutter console here"
+; "Extended"="" ; Uncomment to hide behind shift key
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Flutter\command]
+; Edit the following line to your installation path
+@="cmd /s /v:on /c \"SET USERPROFILE=\"\"\"%V\"\"\" & \"\"\"!LOCALAPPDATA!\\flutter\\flutter_console.bat\"\"\"\""
+
+; Foreground
+
+[HKEY_CLASSES_ROOT\Directory\shell\Flutter]
+@="Open Flutter console here"
+; "Extended"="" ; Uncomment to hide behind shift key
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Flutter\command]
+; Edit the following line to your installation path
+@="cmd /s /v:on /c \"SET USERPROFILE=\"\"\"%V\"\"\" & \"\"\"!LOCALAPPDATA!\\flutter\\flutter_console.bat\"\"\"\""
